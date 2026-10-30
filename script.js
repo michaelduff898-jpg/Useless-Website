@@ -9,7 +9,7 @@ const artworkCollection = [
         label: "View Llama artwork"
     },
     {
-        image: "Screenshot 2026-09-18 at 1.37.33 AM.png",
+        image: "pixel burger.png",
         alt: "Pixel-art hamburger",
         title: "HAMBURGER",
         artist: "Bun in a million",
