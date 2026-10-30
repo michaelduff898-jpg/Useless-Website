@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="gallery">
+        <h1>FINE ART GALLERY</h1>
+        <p class="gallery-tagline">Whatever You Do, Don’t Touch.</p>
+
+        <section class="gallery-stage" aria-label="Fine art collection">
+            <div class="artworks" aria-label="Randomly selected artworks"></div>
+
+            <div class="gallery-message" id="galleryMessage" aria-live="polite" aria-atomic="true">
+                <h2 class="art-title" id="artTitle"></h2>
+                <p class="art-artist" id="artArtist"></p>
+                <p class="art-year" id="artYear"></p>
+                <p class="art-caption" id="artCaption"></p>
+            </div>
+        </section>
+
+        <p class="refresh-sign">Refresh to see more artworks</p>
+    </main>
+</body>
+</html>
